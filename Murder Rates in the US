@@ -117,5 +117,3 @@ murders %>%
   ggtitle("US Gun Murders in 2010") +
   scale_color_discrete(name = "Region") +
   theme_economist()
-  
-  
