@@ -46,10 +46,6 @@ dat %>%
             mapping = aes(x, y, label = "US average"), color = "black") +
   geom_vline(xintercept = 1963, col = "blue")
 
-## Avoid Pseudo and Gratuitous 3D Plots
-## Avoid too many significant digits - (digits = 3), round(), or signif()
-
-
 ## Time series plot for smallpox, excluding Hawaii and Alaska and years with cases reported after 10 weeks
 library(dplyr)
 library(ggplot2)
